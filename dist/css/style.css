@@ -1,3 +1,4 @@
+
 * {
   padding: 0;
   margin: 0;
@@ -12,11 +13,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
-  max-height: 1000px;
-}
-
-.wrapper {
-  overflow: hidden;
+  overflow-x: hidden;
+  max-height: 100vh;
 }
 
 .container {
@@ -191,6 +189,7 @@ main .container {
 .participate-btn {
   width: 180px;
   height: 35px;
+  cursor: pointer;
   border-radius: 12px;
   text-transform: uppercase;
   letter-spacing: 1px;
